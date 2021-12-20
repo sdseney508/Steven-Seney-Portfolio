@@ -2,7 +2,7 @@
 Repository containing a portfolio of recent development work.
 
 ## Description
-This project is a porfolio for the applications developed while enrolled in the University of New Hampshire SW Bootcamp.  
+This project is a portfolio for the applications developed while enrolled in the University of New Hampshire SW Bootcamp.  
 
   
 ## Table of Contents
