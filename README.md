@@ -25,11 +25,11 @@ This project is a portfolio for the applications developed while enrolled in the
 -[Tests](#tests)
 
 ## Applications
-1.  
-2.
-3.
-4.
-5.
+1.  Code Refactoring project for the Horiseon website.  
+2.  In development.
+3.  In development.
+4.  In development.
+5.  In development.
 
 ## Installation
 Application installation instructions are contained within the Read Me files for each application.
