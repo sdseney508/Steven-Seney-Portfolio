@@ -127,16 +127,16 @@ height:auto;
 
 main {
   display: flex;
+  align-items: stretch;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .title {
   width: 20%;
+  vertical-align: middle;
   text-align: right;
-  margin: 10px;
   display: flex;
   flex-direction: column;
   font-size: 40px;
@@ -144,8 +144,8 @@ main {
 
 .content {
   width: 60%;
-  margin: 10px;
-  border-left: 4px solid darkgray;
+  margin: 0 50px 5px 50px;
+  border-left: 5px solid darkgray;
   display: flex;
   flex-direction: column;
   text-align: left;

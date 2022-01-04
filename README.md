@@ -41,7 +41,7 @@ N/A
 For a good review of formating and descriptions of semantic elements and html and CSS tutorials:  https://www.w3schools.com/
 
 ## License
-License file located at: https://github.com/sdseney508/UNH_HW_1-Code_Refactor/blob/main/license.txt
+License file located at: https://github.com/sdseney508/Steven-Seney-Portfolio/blob/main/license.txt
 
 ## Badges
 N/A for this project.
