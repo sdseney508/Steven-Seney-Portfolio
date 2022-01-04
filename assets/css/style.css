@@ -1,0 +1,180 @@
+
+html {
+  /* set 1rem to 10px instead of native 16px to make it easier to calculate font-size values for the rest of the page (e.g. 1.6rem is 16px, 2.0rem is 20px, etc.) */
+  font-size: 62.5%;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+body {
+  /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 1.75rem;
+  line-height: 1.5;
+  text-align: center;
+  background-color: gray
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: darkblue 
+}
+header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  width: 100%;
+  background: gray
+  color: black
+  display: flexbox;
+}
+
+/*Defines the format for everything in the header. */
+header h1 {
+  font-size: 40px;
+  display: inline-flex;
+}
+
+/*Defines the font, margins, padding, float and font size for everything in the nav section.*/
+nav {
+  display: inline-flexbox;
+  float: right;
+  background-color:gray
+  color: white;
+  width: fit-content;
+  font-size: 15px;
+}
+
+nav a {
+  display: inline-flexbox;
+  padding: 20px;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+
+nav a:hover {
+  color: darkblue;
+} 
+
+/*backgroundimage */
+.bkgrd {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/p-8a-poseidon_009.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.parent-image{
+  position: relative;
+}
+.parent-img-responsive{
+width:110%;
+height:auto;	
+}
+
+.child-image{
+  position: absolute;
+  width: 15%;
+  height: auto;
+  border-radius: 25px;
+  bottom: 35%;
+  left: 0;
+}
+
+.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.centered:hover {
+  opacity: 0.3;
+}
+
+/*for the secondary projects section*/
+.subprojects{
+  width: 100%;
+  display: inline-flexbox;
+  flex-direction: column;
+  text-align: left;
+}
+
+/*for the secondary project images and links*/
+.secondprojects {
+  display: flexbox;
+  flex-direction: column;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 49%;
+}
+
+.secondprojects:hover {
+  opacity: 0.3;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  width: 20%;
+  text-align: right;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+}
+
+.content {
+  width: 60%;
+  margin: 10px;
+  border-left: 4px solid darkgray;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.content ul {
+  list-style-type: none;
+  display: flex;
+}
+
+/*sets the list as inline instead of vertical*/
+.content ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+a{
+  color: white;
+}
+
+a[href$='.docx']::after{
+  content: "📑";
+  display: inline-block;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+}
