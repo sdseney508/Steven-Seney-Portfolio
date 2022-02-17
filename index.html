@@ -1,95 +1,130 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steven Seney Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- reset sheet -->
+    <link rel="resetsheet" href="./assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!-- Foundation 6. style sheet -->
+    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <!-- jQuery 1.13.0 UI Style sheet -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" />
+    <!-- Fontawesome icons -->
+    <script src="https://kit.fontawesome.com/f153357c8e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
     <header>
-        <h1>Steven D Seney Jr Portfolio</h1>        
-        <nav>
-            <a href="#about-me">About Me</a>
-            <a href="#work-portfolio">Work Samples</a>
-            <a href="#contact-information">Contact Information</a>
-            <a href="./assets/images/Steven-Seney-Resume.docx">Resume</a>
-        </nav>
+        <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+                <div class="large-12 cell align-center">
+
+                    <h1>Steven D Seney Jr Portfolio</h1>
+                    <nav>
+                        <a href="#about-me">About Me</a>
+                        <a href="#work-portfolio">Work Samples</a>
+                        <a href="#contact-information">Contact Information</a>
+                        <a href="./assets/images/Steven-Seney-Resume.docx">Resume</a>
+                    </nav>
+
+                    <!--P-8 image as my background.-->
+                    <img src="./assets/images/P-8A-drops-Mk54-torpedo-1.jpg" class="parent-image"
+                        alt="P-8A Poseidon image">
+
+
+                </div>
+            </div>
+        </div>
     </header>
 
-    <!--P-8 image as my background.-->
-    <section>
-        <img src="./assets/images/p-8a-poseidon_009.jpg" class="parent-image"
-            alt="P-8A Poseidon image">
-        <img src="./assets/images/avatar.jpg" class="child-image">
-
-    </section>
-
     <main>
+        <div class="columns">
+            <div class="row">
+                <div id="about-me" class="small-12 medium-3 large-3 columns">
+                    <h2>About Me</h2>
+                    <img src="./assets/images/avatar.jpg" class="child-image">
+                </div>
 
-        <section id="about-me" class="title">
-            <h2>About Me</h2> 
-        </section>
+                <div class="small-12 medium-9 large-9 columns content align-self-middle">
+                    <p>
+                        Retired Naval Aviator and Engineer. Served as a P-3 pilot to begin my career, then
+                        transitioned
+                        to the Aviation Engineering Duty Corps. I spent the last ten years of my career serving as a
+                        Program
+                        Manager and then the Systems Engineering lead on major aircraft development efforts.
+                        <br>
 
-        <section class="content">
-            <p>
-                Retired Naval Aviator and Engineer.  Served as a P-3 pilot to begin my career, then transitioned
-                to the Aviation Engineering Duty Corps.  I spent the last ten years of my career serving as a Program
-                Manager and then the Systems Engineering lead on major aircraft development efforts.
+                        <br>
+                        I am now looking to transition into a SW development arena to further develop my engineering
+                        skills.
+                    </p>
+                </div>
+            </div>
             <br>
-
             <br>
-                I am now looking to transition into a SW development arena to further develop my engineering skills.
-            </p>
-        </section>
-           
-        <section id="work-portfolio" class="title">
-            <h2>Work Portfolio</h2> 
-        </section>
-            
-        <section class="content">
-            <a href="https://sdseney508.github.io/UNH_HW_1-Code_Refactor/"><img src="./assets/images/code-refactor.jpg" alt="Image describing refactoring the code of already deployed applications."
-                class="centered"></a>
-                <section class="subprojects">
-                    <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg" alt="Application in development."
-                        class="secondprojects"></a>
-                    <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg" alt="Application in development."
-                        class="secondprojects"></a>
-                    <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg" alt="Application in development."
-                        class="secondprojects"></a>
-                    <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg" alt="Application in development."
-                        class="secondprojects"></a>
-                </section>
-        </section>
+            <div class="row">
+                <div id="work-portfolio" class="small-12 medium-3 large-3 columns">
+                    <h2>Work Portfolio</h2>
+                </div>
 
-        <section id="contact-information" class="title">
-            <h2>Contact Information</h2>
-        </section>
- 
+                <div class="small-12 medium-9 large-9 columns content">
+                    <a href="https://sdseney508.github.io/Group-Project-1/"><img src="./assets/images/trailfinder.jpg"
+                            alt="Trail Finder" class="centered"></a>
+                    <div class="subprojects">
+                        <a href="https://sdseney508.github.io/UNH_HW_1-Code_Refactor/"><img
+                                src="./assets/images/code-refactor.jpg"
+                                alt="Image describing refactoring the code of already deployed applications."
+                                class="secondprojects"></a>
+                        <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg"
+                                alt="Application in development." class="secondprojects"></a>
+                        <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg"
+                                alt="Application in development." class="secondprojects"></a>
+                        <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg"
+                                alt="Application in development." class="secondprojects"></a>
+                    </div>
 
-        <section class="content">
-            <ul>
-                <li style="color: white;">
-                    (904)710-1545
-                </li>
+                </div>
+            </div>
 
-                <li>
-                    <a href = "mailto: sdseney508@gmail.com">sdseney508@gmail.com</a>
-                </li>
+            <div class="row">
+                <div id="contact-information" class="small-12 medium-3 large-3 columns">
+                    <h2>Contact Information</h2>
+                </div>
 
-                <li>
-                    <a href="https://www.linkedin.com/in/stevenseney/">Steven D Seney Jr Linkedin</a>
-                </li>
+                <div class="small-12 medium-9 large-9 columns content">
 
-                <li>
-                    <a href="https://github.com/sdseney508">Steven D Seney Jr github</a>
-                </li>
-            </ul>
-        </section>
+                    <ul>
+                        <li style="color: white;">
+                            (904)710-1545
+                        </li>
 
+                        <li>
+                            <a href="mailto: sdseney508@gmail.com" class="italics">sdseney508@gmail.com</a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.linkedin.com/in/stevenseney/" class="italics">Linkedin</a>
+                        </li>
+
+                        <li>
+                            <a href="https://github.com/sdseney508" class="italics">Github</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
     </main>
 
 
@@ -100,3 +135,14 @@
 
     </footer>
 </body>
+<!-- updated to jQuery 3.6 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- updated to jQuery UI v 1.13 -->
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<!-- adding dayjs for date formats -->
+<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+</html>
