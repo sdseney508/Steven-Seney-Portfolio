@@ -26,10 +26,12 @@ This project is a portfolio for the applications developed while enrolled in the
 
 ## Applications
 1.  TrailFinder API - Integrates a google Map search with the opentrailsAPI to find and display trails along with the local wx and a starchart to enable planning of a trip.
-2.  Code Refactoring project for the Horiseon website.  
-3.  In development.
-4.  In development.
+2.  Weather Dashboard - Dsiplays the 5 day weather forecast for a given area.  
+https://github.com/sdseney508/Weather-Dashboard
+4.  Code Refactoring project for the Horiseon website.  
 5.  In development.
+6.  In development.
+7.  In development.
 
 ## Installation
 The application is run from the following website:
