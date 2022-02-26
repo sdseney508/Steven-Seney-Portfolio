@@ -26,6 +26,7 @@ This project is a portfolio for the applications developed while enrolled in the
 
 ## Applications
 **TrailFinder API** - Integrates a google Map search with the opentrailsAPI to find and display trails along with the local wx and a starchart to enable planning of a trip.
+     
      Github Repo: https://github.com/sdseney508/Weather-Dashboard
 
 Deployed Site: https://sdseney508.github.io/Trail-Finder/
