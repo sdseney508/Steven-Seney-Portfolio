@@ -27,7 +27,7 @@ This project is a portfolio for the applications developed while enrolled in the
 ## Applications
 **TrailFinder API** - Integrates a google Map search with the opentrailsAPI to find and display trails along with the local wx and a starchart to enable planning of a trip.
      
-     Github Repo: https://github.com/sdseney508/Weather-Dashboard
+Github Repo: https://github.com/sdseney508/Weather-Dashboard
 
 Deployed Site: https://sdseney508.github.io/Trail-Finder/
 
@@ -35,24 +35,17 @@ Deployed Site: https://sdseney508.github.io/Trail-Finder/
 
 **Weather Dashboard** - Displays the 5 day weather forecast for a given area.  
 
-  Github Repo:
+  Github Repo: https://github.com/sdseney508/Weather-Dashboard
 
-https://github.com/sdseney508/Weather-Dashboard
-
-  Deployed Site:
-
-https://sdseney508.github.io/Weather-Dashboard/
+  Deployed Site: https://sdseney508.github.io/Weather-Dashboard/
 
 <img src="https://user-images.githubusercontent.com/62141103/152249277-771b338a-f919-4a5c-80c8-71af8d61c463.png" width="300" height="200"/>
 
 **Code Refactoring Project.**
 
   Deployed site:
-
 https://sdseney508.github.io/UNH_HW_1-Code_Refactor/
-
   Github Repo:
-
 https://github.com/sdseney508/UNH_HW_1-Code_Refactor
 
 In development.
