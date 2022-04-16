@@ -1,148 +1,190 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Steven Seney Portfolio</title>
     <!-- reset sheet -->
-    <link rel="resetsheet" href="./assets/css/reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap"
-        rel="stylesheet">
-    <!-- Foundation 6. style sheet -->
-    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap style sheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <!-- jQuery 1.13.0 UI Style sheet -->
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css"
+    />
     <!-- Fontawesome icons -->
-    <script src="https://kit.fontawesome.com/f153357c8e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/f153357c8e.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
-</head>
+  </head>
 
-<body>
-    <header>
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x">
-                <div class="large-12 cell align-center">
+  <body>
+    <header class="d-flex flex-row">
+      <div class="flex-column">
+        <h1>Steven D Seney Jr Portfolio</h1>
+        <nav>
+          <a href="#about-me" class="col-sm-12 col-md-5 col-lg-2">About Me</a>
+          <a href="#work-portfolio" class="col-sm-12 col-md-5 col-lg-2"
+            >Work Samples</a
+          >
+          <a href="#contact-information" class="col-sm-12 col-md-5 col-lg-2"
+            >Contact Information</a
+          >
+          <a
+            href="./assets/images/Steven-Seney-Resume.docx"
+            class="col-sm-12 col-md-5 col-lg-2"
+            >Resume</a
+          >
+        </nav>
 
-                    <h1>Steven D Seney Jr Portfolio</h1>
-                    <nav>
-                        <a href="#about-me">About Me</a>
-                        <a href="#work-portfolio">Work Samples</a>
-                        <a href="#contact-information">Contact Information</a>
-                        <a href="./assets/images/Steven-Seney-Resume.docx">Resume</a>
-                    </nav>
-
-                    <!--P-8 image as my background.-->
-                    <img src="./assets/images/P-8A-drops-Mk54-torpedo-1.jpg" class="parent-image"
-                        alt="P-8A Poseidon image">
-
-
-                </div>
-            </div>
-        </div>
+        <!--P-8 image as my background.-->
+        <img
+          src="./assets/images/P-8A-drops-Mk54-torpedo-1.jpg"
+          class="parent-image"
+          alt="P-8A Poseidon image"
+        />
+      </div>
     </header>
 
     <main>
-        <div class="columns">
-            <div class="row">
-                <div id="about-me" class="small-12 medium-3 large-3 columns">
-                    <h2>About Me</h2>
-                    <img src="./assets/images/avatar.jpg" class="child-image">
-                </div>
-
-                <div class="small-12 medium-9 large-9 columns content align-self-middle">
-                    <p>
-                        Retired Naval Aviator and Engineer. Served as a P-3 pilot to begin my career, then
-                        transitioned
-                        to the Aviation Engineering Duty Corps. I spent the last ten years of my career serving as a
-                        Program
-                        Manager and then the Systems Engineering lead on major aircraft development efforts.
-                        <br>
-
-                        <br>
-                        I am now looking to transition into a SW development arena to further develop my engineering
-                        skills.
-                    </p>
-                </div>
-            </div>
-            <br>
-            <br>
-            <div class="row">
-                <div id="work-portfolio" class="small-12 medium-3 large-3 columns">
-                    <h2>Work Portfolio</h2>
-                </div>
-
-                <div class="small-12 medium-9 large-9 columns content">
-                    <a href="https://github.com/sdseney508/Trail-Finder"><img src="./assets/images/trailfinder.jpg"
-                            alt="Trail Finder" class="centered"></a>
-                    <div class="subprojects">
-                        <a href="https://github.com/sdseney508/Weather-Dashboard"><img
-                                src="./assets/images/152249277-771b338a-f919-4a5c-80c8-71af8d61c463.png"
-                                alt="Image describing refactoring the code of already deployed applications."
-                                class="secondprojects"></a>
-                        <a href="https://sdseney508.github.io/UNH_HW_1-Code_Refactor/"><img src="./assets/images/code-refactor.jpg"
-                                alt="Application in development." class="secondprojects"></a>
-                        <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg"
-                                alt="Application in development." class="secondprojects"></a>
-                        <a href="https://github.com/sdseney508"><img src="./assets/images/indev.jpg"
-                                alt="Application in development." class="secondprojects"></a>
-                    </div>
-
-                </div>
+      <div class="d-flex flex-column">
+        <div class="flex-column content">
+          <div class="row">
+            <div id="about-me" class="col-sm-12 col-md-12 col-lg-12">
+              <h2>About Me</h2>
+              <img src="./assets/images/avatar.jpg" class="child-image" />
             </div>
 
-            <div class="row">
-                <div id="contact-information" class="small-12 medium-3 large-3 columns">
-                    <h2>Contact Information</h2>
-                </div>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <p>
+                Retired Naval Aviator and Engineer now working on Full Stack
+                development projects. I served 10 years as a P-3C "Mighty Orion"
+                pilot to begin my career, then transitioned to the Aviation
+                Engineering Duty Corps where I spent the ten years of serving as
+                a Program Manager and then the Chief Engineer on major aircraft
+                development efforts.
+                <br />
 
-                <div class="small-12 medium-9 large-9 columns content">
-
-                    <ul>
-                        <li style="color: white;">
-                            (904)710-1545
-                        </li>
-
-                        <li>
-                            <a href="mailto: sdseney508@gmail.com" class="italics">sdseney508@gmail.com</a>
-                        </li>
-
-                        <li>
-                            <a href="https://www.linkedin.com/in/stevenseney/" class="italics">Linkedin</a>
-                        </li>
-
-                        <li>
-                            <a href="https://github.com/sdseney508" class="italics">Github</a>
-                        </li>
-                    </ul>
-
-                </div>
+                <br />
+                I am now refrehsing my skills as a SW engineer working on large
+                database efforts and Full Stack projects.
+              </p>
             </div>
+          </div>
         </div>
+        <br />
+        <br />
+
+        <div class="d-flex flex-column content">
+          <div class="row">
+            <div id="work-portfolio" class="col-lg-2">
+              <h2>Work Portfolio</h2>
+            </div>
+
+            <div class="flex-column col-lg-9">
+              <a href="https://github.com/sdseney508/Trail-Finder"
+                ><img
+                  src="./assets/images/trailfinder.jpg"
+                  alt="Trail Finder"
+                  class="centered main-project"
+              /></a>
+              <div class="subprojects flex-column">
+                <a href="https://github.com/sdseney508/Weather-Dashboard"
+                  ><img
+                    src="./assets/images/152249277-771b338a-f919-4a5c-80c8-71af8d61c463.png"
+                    alt="Image describing refactoring the code of already deployed applications."
+                    class="secondprojects"
+                /></a>
+                <a href="https://github.com/sdseney508/Pokedex"
+                  ><img
+                    src="https://user-images.githubusercontent.com/62141103/162576186-336daf66-b42b-426f-a0a7-111b0a24d9b2.png"
+                    alt="Application in development."
+                    class="secondprojects"
+                /></a>
+                <a href="https://github.com/sdseney508"
+                  ><img
+                    src="./assets/images/indev.jpg"
+                    alt="Application in development."
+                    class="secondprojects"
+                /></a>
+                <a href="https://github.com/sdseney508"
+                  ><img
+                    src="./assets/images/indev.jpg"
+                    alt="Application in development."
+                    class="secondprojects"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column">
+          <div class="row">
+            <div id="contact-information" class="col-lg-4">
+              <h2>Contact Information</h2>
+            </div>
+
+            <div class="flex-column col-lg-8">
+              <ul>
+                <li style="color: white">(904)710-1545</li>
+
+                <li>
+                  <a href="mailto: sdseney508@gmail.com" class="italics"
+                    >sdseney508@gmail.com</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/stevenseney/"
+                    class="italics"
+                    >Linkedin</a
+                  >
+                </li>
+
+                <li>
+                  <a href="https://github.com/sdseney508" class="italics"
+                    >Github</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
+    <footer></footer>
+  </body>
 
+  <!-- bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+  <!-- updated to jQuery 3.6 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- updated to jQuery UI v 1.13 -->
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
 
-    <footer>
-
-
-
-    </footer>
-</body>
-<!-- updated to jQuery 3.6 -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<!-- updated to jQuery UI v 1.13 -->
-<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
-<script src="js/vendor/what-input.js"></script>
-<script src="js/vendor/foundation.js"></script>
-<!-- adding dayjs for date formats -->
-<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
-<script src="assets/js/script.js"></script>
-
+  <!-- adding dayjs for date formats -->
+  <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </html>
