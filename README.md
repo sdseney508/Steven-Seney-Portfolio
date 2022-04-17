@@ -45,6 +45,7 @@ Deployed Site: https://sdseney508.github.io/Weather-Dashboard/
 <img src="https://user-images.githubusercontent.com/62141103/152249277-771b338a-f919-4a5c-80c8-71af8d61c463.png" width="300" height="200"/>
 
 **Pokedex**
+![image](https://user-images.githubusercontent.com/62141103/163717212-00998047-330b-43c3-bb7c-6e26fc2f3fe4.png)
 
 Deployed site:
 https://unh-pokedex-final.herokuapp.com/
